@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>쇼핑리스트</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/1c7522c47a.js" crossorigin="anonymous"></script>
-    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping List</title>
 </head>
 <body>
-    <div class="phone">
-        <h2>Shopping List</h2>
-        <ul class="content">
-        </ul>
-        <input type="text" class="inputText">
-        <p class="addBt"><i class="fas fa-plus"></i></p>
+    <div>
+    <h2>Shopping List</h2>
+    <section>
+    <ul class="list">
+        <li class="target">확인</li>
+        <span onclick="newElement()" class="addBtn">del</span>
+    </ul>
+    </section>
+    <p>
+    <input type="text" id="Insert">
+    </p>
+    <h1>+</h1>
     </div>
-    <i class="fas fa-trash-alt delete_all"></i>
+    <script src="myscripts.js"></script>
 </body>
 </html>
