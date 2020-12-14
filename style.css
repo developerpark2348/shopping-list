@@ -2,11 +2,24 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
 
 li {
   list-style: none;
-  margin-left: 20px;
+  padding: 12px 8px 12px 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.DelBtn {
+  margin-left: 280px;
 }
 
 div {
@@ -33,8 +46,4 @@ section {
 #Insert {
   width: 400px;
   height: 30px;
-}
-
-h1 {
-  text-align: center;
 }
